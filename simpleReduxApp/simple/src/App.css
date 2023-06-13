@@ -1,0 +1,54 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+.App {
+  text-align: center;
+  width: 450px;
+  border: 1px solid orange;
+  background-color: rgb(255, 165, 0,.6);
+  border-radius: 20px;
+  padding: 30px;
+}
+.counterDiv{
+  margin-bottom: 15px;
+}
+.counterDiv .increaseBtn {
+  font-size: 15px;
+  padding: 5px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+
+.counterDiv .decreaseBtn {
+  font-size: 15px;
+  padding: 5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.todoDiv ul{
+ padding: 0;
+}
+.todoDiv ul li{
+  border-bottom: 1px dotted grey;
+  margin-bottom: 10px;
+ }
+
+ .todoBtn {
+  font-size: 15px;
+  padding: 5px;
+  background-color:rgb(0, 0, 255,.6);
+  color: white;
+  border: none;
+  border-radius: 5px;
+ }
+
